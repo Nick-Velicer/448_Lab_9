@@ -1,0 +1,41 @@
+<html>
+	<link rel="stylesheet" href="style.css" type="text/css">
+	<body>
+	<h1>Online Plant Store</h1>
+	<form action="customerBackend.php" method="post">
+		<label>Username: </label>
+		<input type="text" name="username" id="username"></input>
+		<br>
+		<label>Password: </label>
+		<input type="text" name="password" id="password"></input>
+		<br>
+		<br>
+		<h3>Succulent w/clay pot ($5)</h3>
+		<label>Quantity: </label>
+		<input type="text" name="succulent" id="succulent"></input>
+		<br>
+		<h3>Cactus in gravel ($8)</h3>
+		<label>Quantity: </label>
+		<input type="text" name="cactus" id="cactus"></input>
+		<br>
+		<h3>Flowers in hanging planter ($10)</h3>
+		<label>Quantity: </label>
+		<input type="text" name="flower" id="flower"></input>
+		<br>
+		<br>
+		<input type="radio" name="shipping" value="0" id="ship1"></input>
+		<label>Free 7-Day Shipping</label>
+		<br>
+		<input type="radio" name="shipping" value="5" id="ship2"></input>
+		<label>$5 3-Day Shipping</label>
+		<br>
+		<input type="radio" name="shipping" value="50" id="ship3"></input>
+		<label>$50 Overnight Shipping</label>
+		<br>
+		<br>
+		<input type="submit" id="submit"></input>
+	</form>
+	<button id="reset">Reset</button>
+	</body>
+	<script src="formChecker.js"></script>
+</html>
